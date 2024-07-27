@@ -1,0 +1,398 @@
+.main{
+    background-color: black;
+    height: 10vh;
+}
+.nav-image img{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height:65px;
+    background-color:rgb(1, 7, 8);
+    border-radius:70px;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,.1);
+    
+}
+
+.nav a{
+   font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align:center;
+     
+}
+.nav a{
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition: .5s;
+}
+.nav a:hover{
+    color:rgb(9, 252, 252);
+}
+.nav a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid rgb(21, 251, 251);
+    border-radius: 20px;
+    transform: scale(0) translatey(50px);
+    opacity: 0;
+    transition: .5s;
+
+}
+.nav a:hover span{
+    transform: scale(1) translatey(0);
+    opacity: 1;
+}
+
+
+.name h1 {
+    text-align:center;
+    padding:20px;
+    font-size:70px;
+    text-transform: uppercase;
+    color: rgb(14, 2, 2);
+    text-shadow: 3px -3px 3px red;
+}
+.name h1:hover{
+    color: red;
+}
+.name p{
+    font-size:25px;
+    text-align:center;
+    text-shadow: 2px -2px 2px red;
+    color: rgb(10, 1, 1);
+}
+.name{
+    background-image: url(https://i.pinimg.com/originals/43/14/07/43140752c90ad9d7a2123810627ef974.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    width:100%;
+    }
+ .pictures-container{
+    height:90vh;
+    
+ }
+ .comic{
+    font-size: larger;
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+ }
+ .pictures-container img{
+    height:500px;
+    width: 350px;
+ }
+ .pictures-container p{
+    font-size:25px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    line-height: 30px;
+    
+}
+.na h2{
+    text-align: end;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:30px; 
+    text-transform:capitalize;
+
+}
+.pictures-container1{
+    height:90vh;
+}
+.pictures-container1 h1{
+    text-transform: capitalize;
+    font-size:larger;
+    font-weight: bolder;
+    
+}
+.pictures-container1 p{
+    font-size:25px;
+    word-spacing:15px;
+    text-indent: 70px;
+    line-height:30px;
+}
+.na1{
+    text-align: end;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color:rgb(3, 3, 3);
+    text-transform: capitalize;
+
+}
+.pictures-container1 img{
+    height:500px;
+}
+.pictures-container2{
+    height:95vh;
+}
+.pictures-container2 img{
+    height: 550px;
+    width: 350px;
+}
+.pictures-container2 h1{
+    text-transform: capitalize;
+    font-size:larger;
+    font-weight: bolder;
+}
+.pictures-container2 p{
+    font-size:25px;
+    word-spacing:15px;
+    text-indent: 70px;
+    line-height:30px;
+}
+.na2{
+    text-align: end;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color:rgb(3, 3, 3);
+    text-transform: capitalize;
+}
+.pictures-container3{
+    height:100vh;
+}
+.pictures-container3 ul{
+    font-size:20px;
+    text-transform: capitalize;
+    line-height:40px;
+    font-weight: bolder;
+}
+.inputbox{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:#12014d;
+}
+.contact .content p{
+    font-weight: 300;
+    color:rgb(27, 10, 141);
+}
+.container{
+     width:100% ;
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:10px;
+    font-size: medium;
+    text-transform: capitalize;
+}
+.container .containerinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .containerinfo .box .icon{
+   min-width:60px;
+   height:50px;
+   background-color: beige;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius:200px;
+   font-size: 22px;
+}
+.box{
+    width: 10px;
+}
+.container .containerinfo .box .text{
+    display: flex;
+    margin-left: 10px;
+    font-size: 13px;
+    color: black;
+    flex-direction:column;
+    font-weight: 200;
+
+}
+.container .containerinfo .box .text h3{
+    font-size:500;
+    color: rgb(4, 3, 15);
+}
+.contactform{
+    width:40%;
+    padding: 40px;
+    background-color: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea 
+
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #040404;
+    outline: none;
+    
+}
+.contactform .inputbox span{
+    position:absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    pointer-events: none;
+    transition: 0.5%;
+    color: #666;
+}
+.contactform .inputbox  input:focus ~ span{
+color: #e91e63;
+    font-size: 12px;
+    transform:translatey(-20px)
+}
+.contactform .inputbox  input:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform:translatey(-20px)
+}
+.contactform .inputbox  textarea:focus ~ span{
+   color: #e91e63;
+    font-size: 12px;
+    transform:translatey(-20px)
+}
+.contactform .inputbox  textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform:translatey(-20px)
+}
+.text p{
+    font-weight: 50px;
+}
+.pictures-container3 img{
+    height:650px;
+    width:600px;
+}
+.about-container{
+    height:100vh;
+    background-repeat: no-repeat;
+}
+.about-container img{
+    height:100%;
+    width:100%;
+}
+.series-section{
+    background-color: powderblue;
+}
+.series-container1{
+    background-color: powderblue;
+}
+.series-container2{
+    background-color: powderblue;
+}
+.pictures-container3{
+    background-color: powderblue;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+    
+
+
+
+
+
+    
